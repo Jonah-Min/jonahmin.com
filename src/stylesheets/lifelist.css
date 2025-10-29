@@ -1,0 +1,10 @@
+.life-list-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.life-list {
+    width: 75%;
+    background-color: blue;
+}

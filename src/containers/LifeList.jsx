@@ -1,12 +1,15 @@
 import { PureComponent } from 'react';
 
-import '../stylesheets/homePage.css';
+import WebsiteHeader from '../components/WebsiteHeader';
+
+import '../stylesheets/lifelist.css';
 
 export default class HomePage extends PureComponent {
     render() {
         return (
-            <span className="home-page-container">
-                <span className="home-page-body">
+            <span className="life-list-container">
+                <WebsiteHeader />
+                <span className="life-list">
                     <h1>Life List</h1>
                 </span>
             </span>
