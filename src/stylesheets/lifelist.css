@@ -1,10 +1,36 @@
-.life-list-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.life-list {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.life-list {
-    width: 75%;
-    background-color: blue;
+.life-list-container {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+
+.life-list-container h2 {
+    text-align: left;
+}
+
+.life-list-left {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.life-list-right {
+    display: flex; 
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.life-list-right h2 {
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
 }
