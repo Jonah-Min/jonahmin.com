@@ -20,7 +20,7 @@ export default class HomePage extends PureComponent {
                             <li>
                                 <span className="project-link">
                                     <NavLink to="/lifelist">Life list</NavLink> -
-                                    <p>A list of every single bird species I've ever seen.</p>
+                                    <p>A comprehensive list of every single bird species I've ever seen.</p>
                                 </span>
                             </li>
                             <li>
