@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "hompage": "jonahmin.com",
+  "hompage": "https://jonah-min.github.io/jonahmin.com/",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
