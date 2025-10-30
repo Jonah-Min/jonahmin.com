@@ -63,8 +63,11 @@ export default function LifeList() {
                     </Paper>
                 </span>
                 <span className="life-list-right">
-                    <h2>Where I've Gone Bird Watching</h2>
-                    <img title="Blank SVG World Map" alt="SVG World Map Using Robinson Projection" src="/world.svg" className="img-responsive" />
+                    {/* Todo add cool underlines */}
+                    <h2>My Bird Watching Destinations</h2>
+                    <div className="world-map">
+                        <img title="Blank SVG World Map" alt="SVG World Map Using Robinson Projection" src="/world.svg" className="img-responsive" />
+                    </div>
                 </span>
             </span>
         </span>
