@@ -11,7 +11,7 @@ export default class HomePage extends PureComponent {
                     <h2>Hello There, I'm Jonah!</h2>
                     <img src="/me.jpg" />
                     <span className="about">
-                        <h3>A Little Bit About Me :3</h3>
+                        <h3>A Little Bit About Me</h3>
                         <p>I graduated from Northeastern University in 2019 with a major in Computer Science and a minor in Art, and I've been a senior software engineer at HubSpot ever since. I love bird watching, drawing, playing Magic: the Gathering with friends, running, biking, and hiking.</p>
                     </span>
                     <span className="projects">
