@@ -19,13 +19,13 @@ export default class HomePage extends PureComponent {
                         <ul className="projects-list">
                             <li>
                                 <span className="project-link">
-                                    <NavLink to="/lifelist">Bird Watching Life list</NavLink> -
+                                    <NavLink to="https://lifelist.jonahmin.com">Bird Watching Life list</NavLink> -
                                     <p>A list of every single bird I've ever seen.</p>
                                 </span>
                             </li>
                             <li>
                                 <span className="project-link">
-                                    <NavLink to="/emojify">Emojify</NavLink> -
+                                    <NavLink to="https://emojify.jonahmin.com">Emojify</NavLink> -
                                     <p>A website I made to generate messages out of emojis at work.</p>
                                 </span>
                             </li>
