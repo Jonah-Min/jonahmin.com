@@ -4,10 +4,11 @@
   flex-direction: column;
   height: 100%;
   align-items: center;
+  padding-bottom: 10vh;
 }
 
 .about-me-container {
-  width: 33%;
+  width: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,7 +32,7 @@
 
 .about {
   display: inline-block;
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
   font-size: 16px;
   margin-bottom: 8px;
@@ -58,7 +59,7 @@ p {
 }
 
 .projects {
-  width: 80%;
+  width: 100%;
 }
 
 .projects h3 {
@@ -92,4 +93,13 @@ p {
 
 .project-link a {
   margin-right: 4px;
+}
+
+@media (max-width: 750px) {
+  .about-me-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
