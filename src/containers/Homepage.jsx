@@ -8,11 +8,13 @@ export default class HomePage extends PureComponent {
         return (
             <span className="home-page-container">
                 <span className="about-me-container">
-                    <h2>Hello There, I'm Jonah!</h2>
+                    <img className="header-image" src="/wilsonswarbsquare.jpg" />
+                    <h1>Jonah Min</h1>
                     <img src="/me.jpg" />
                     <span className="about">
                         <h3>A Little Bit About Me</h3>
-                        <p>I graduated from Northeastern University in 2019 with a major in Computer Science and a minor in Art, and I've been a senior software engineer at HubSpot ever since. I enjoy bird watching, drawing, playing Magic: the Gathering, running, biking, and hiking.</p>
+                        <p>Hello there, My name's Jonah!</p>
+                        <p>I graduated from Northeastern University in 2019 with a major in Computer Science, and I've been a senior software engineer at HubSpot ever since. I also got a minor in art. I always bird watching, which takes up most of my time, in fact I'm probably out bird watching right now! I also enjoy drawing, reading, Magic: the Gathering, running, biking, and hiking.</p>
                     </span>
                     <span className="projects">
                         <h3>Personal Projects</h3>
