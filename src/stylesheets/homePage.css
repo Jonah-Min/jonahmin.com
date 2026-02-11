@@ -85,12 +85,15 @@ p {
 
 .project-link {
   display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 8px;
 }
 
 .project-link p {
   flex-grow: 1;
   flex-basis: 0;
-  margin-left: 4px;
+  margin-top: 4px;
   margin-bottom: 4px;
   text-align: start;
 }
