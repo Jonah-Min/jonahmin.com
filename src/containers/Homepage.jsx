@@ -32,19 +32,19 @@ export default class HomePage extends PureComponent {
                             </p>
                         </div>
                         <div className="project-link">
-                            <NavLink to="https://emojify.jonahmin.com">Emojify</NavLink>
-                            <p>
-                                During our onboarding at HubSpot, a friend and I decided to use some of the down time to spin up a website so you could easily generate messages in Slack only using emojis.
-                                We manually went through every custom emoji at the time to catalogue the ones that vaguely looked like letters in the alphabet.
-                                I'm now hosting this website so coworkers have access to the tool too!
-                            </p>
-                        </div>
-                        <div className="project-link">
                             <NavLink to="https://rarebirds.jonahmin.com">Rare birds map</NavLink>
                             <p>
                                 The popular bird watching website eBird has an API that lets you see nearby rare birds based on a given latitude
                                 and longitude. I decided to use that API to create a little app that includes pins where there are notable sightings.
                                 You can input any latitude and longitude you like to see rare birds in the area!
+                            </p>
+                        </div>
+                        <div className="project-link">
+                            <NavLink to="https://emojify.jonahmin.com">Emojify</NavLink>
+                            <p>
+                                During our onboarding at HubSpot, a friend and I decided to use some of the down time to spin up a website so you could easily generate messages in Slack only using emojis.
+                                We manually went through every custom emoji at the time to catalogue the ones that vaguely looked like letters in the alphabet.
+                                I'm now hosting this website so coworkers have access to the tool too!
                             </p>
                         </div>
                     </div>
